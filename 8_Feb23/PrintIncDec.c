@@ -18,7 +18,7 @@ void PDI(int n)
         return ;
 
     printf("hii %d\n", n) ;
-    PDI(n-1) ;
+    PDI(--n) ;
     printf("bye %d\n", n) ;
     
 }
